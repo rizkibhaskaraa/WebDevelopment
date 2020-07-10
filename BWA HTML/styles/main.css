@@ -1,3 +1,6 @@
-.fitur{
-    background-color: rgba(174, 187, 148, 0.219);
+.header{
+    width: 100%;
+
+    background: aqua;
+    overflow: hidden;
 }

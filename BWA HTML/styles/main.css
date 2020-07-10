@@ -1,3 +1,14 @@
+/* install fonts */
+@font-face{
+    font-family: abrilFat;
+    src: url('../fonts/AbrilFatface-Regular.ttf');
+}
+
+@font-face{
+    font-family: grenzeGotisch;
+    src: url('../fonts/GrenzeGotisch-VariableFont_wght.ttf');
+}
+
 body{
     margin: 0;
 }
@@ -19,6 +30,7 @@ body{
 .header .logo{
     float: left;
     font-size: 32px;
+    font-family: abrilFat;
 }
 
 .header .navigation{
@@ -36,9 +48,11 @@ body{
 .header .navigation li a{
     text-decoration: none;
     color: rgb(58, 5, 5);
+    font-family: grenzeGotisch;
+    font-size: 20px;
 }
 
 .header .navigation li a:hover{
     text-decoration: underline;
-    color: yellowgreen;
+    color: purple;
 }

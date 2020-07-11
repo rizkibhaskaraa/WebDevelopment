@@ -20,17 +20,18 @@ body{
 
 .header{
     width: 100%;
-    background: rgb(212, 206, 206);
+    background: linear-gradient(to top, pink,red,orange);
     overflow: hidden;
-  
+    height: 1230px;
     margin-bottom: 50px;
+    color: rgba(3, 59, 85, 0.377);
 }
 
 
 .header .logo{
     float: left;
-    font-size: 32px;
-    font-family: 'Permanent Marker';
+    font-size: 34px;
+    font-family: 'Modak', cursive;
 }
 
 .header .navigation{
@@ -55,4 +56,21 @@ body{
 .header .navigation li a:hover{
     text-decoration: underline;
     color: purple;
+}
+
+.icon-logo{
+    width: 250px;
+    height: 250px;
+    background:url('../img/unsplash.jpg');
+    background-size: cover;
+    background-position: -5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.parent{
+    margin-top: 30px;
 }

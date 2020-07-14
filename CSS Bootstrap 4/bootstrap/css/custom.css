@@ -37,6 +37,7 @@
 
 
 .hero h1{
+    color:#173A56 ;
    font-weight: bold ;
    font-family: 'Grenze Gotisch', cursive;  
 }
@@ -75,3 +76,36 @@
         margin-left: 0 !important;
     }
  }
+
+ .fitur .designtools{
+     text-align: center;
+     color: #173A56;
+     font-family: 'Grenze Gotisch', cursive;  
+     font-weight: bold;
+ }
+
+ .hero p{
+    color:#173A56 ;
+ }
+
+.fitur .points{
+    margin-top: 56px;
+}
+
+.fitur{
+    padding: 50px 50px 50px 50px;
+}
+
+.fitur .col-sm{
+    font-family: 'Grenze Gotisch', cursive;  
+    font-weight: 600;
+    font-size: 22px;
+    color: #2F281E;
+}
+
+.fitur .col-sm p{
+    font-family: 'Grenze Gotisch', cursive;  
+    color: #2F281E;
+    font-size: 16px;
+    font-weight: 500;
+}

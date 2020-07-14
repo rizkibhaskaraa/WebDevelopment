@@ -1,18 +1,40 @@
 .btn-primary{
   
     background-color: #FF9900;
-    color: white;
+
     border: 0px;
     font-weight: bold;
-    padding: 15px 41px 15px 41px;
+    padding: 15px 40px 15px 40px;
     font-size: 16px;
 
 }
 .btn-primary:hover{
   
     background-color: #be7507;
-    color: white;
+    border: 0;
 }
+
+.btn-secondary{
+    color:#173A56 ;
+    font-weight: 600;
+    background-color: white;
+    font-weight: bold;
+    padding: 15px 41px 15px 41px;
+    font-size: 16px;
+    border: 1px solid #173A56;
+
+}
+
+.btn-secondary:hover{
+   
+    border: 1px solid #99c5e7;
+    color:#173A56 ;
+
+    background-color: white;
+    
+
+}
+
 
 .hero h1{
    font-weight: bold ;
@@ -35,3 +57,13 @@
     color: #815108;
 }
 
+
+.navbar-nav .nav-link{
+    color: #2F281E;
+    font-weight: 600;
+}
+
+
+.navbar-nav .nav-link:hover{
+    color: #c5bbb0;
+}

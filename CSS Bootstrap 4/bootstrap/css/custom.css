@@ -1,0 +1,37 @@
+.btn-primary{
+  
+    background-color: #FF9900;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+    padding: 15px 41px 15px 41px;
+    font-size: 16px;
+
+}
+.btn-primary:hover{
+  
+    background-color: #be7507;
+    color: white;
+}
+
+.hero h1{
+   font-weight: bold ;
+   font-family: 'Grenze Gotisch', cursive;  
+}
+
+.video{
+    color: #FF9900;
+   margin-left: 30px;
+  
+   
+}
+.btn-video{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.video:hover{
+    color: #815108;
+}
+
